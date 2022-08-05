@@ -8,10 +8,6 @@
   <img src="https://badge.fury.io/rb/jekyll-theme-yat.svg"
     alt="Gem Version"/>
 </a>
-<a href="https://opensource.org/licenses/MIT">
-  <img src="https://img.shields.io/badge/License-MIT-brightgreen.svg"
-    alt="License: MIT"/>
-</a>
 
 [Jekyll](https://jekyllrb.com/) site for **Dota 2 Canarias** community hosted on [Github Pages](github-pages).
 
