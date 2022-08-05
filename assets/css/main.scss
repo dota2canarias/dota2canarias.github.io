@@ -1,0 +1,11 @@
+---
+---
+@charset "utf-8";
+
+// Values from _config.yml
+$theme-color: {{ site.theme_color }} !default;
+$brand-color: {{ site.brand_color }} !default;
+$content_width: {{ site.content_width }} !default;
+
+@import "yat";
+@import "dota2canarias";

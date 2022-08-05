@@ -1,0 +1,15 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "jekyll-livereload",
+            "command": "bundle exec jekyll serve --livereload",
+            "type": "shell"
+        },
+        {
+            "label": "jekyll-drafts",
+            "command": "bundle exec jekyll serve --livereload --drafts",
+            "type": "shell"
+        }
+    ]
+}

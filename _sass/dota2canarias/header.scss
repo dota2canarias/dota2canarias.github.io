@@ -1,0 +1,27 @@
+.site-brand .site-brand-inner {
+    font-family: Helvetica,Arial,Oswald,sans-serif,system-ui;
+    font-size: 18px;
+    letter-spacing: 0px;
+    color: inherit;
+    transition: .1s color;
+
+    &:hover,
+    &:active {
+        color: $brand-color;
+    }
+}
+
+html[data-scroll-status='top'] header.site-header-transparent.site-header .site-brand-inner:hover {
+    color: $brand-color;
+}
+
+// Main banner header
+.page-banner.fancy-title {
+  .page-banner-heading {
+    @include text3d(
+    adjust-color($brand-color, $lightness: -8%), 
+    $depth: 8, 
+    $primaryshadowcolour: adjust-color($brand-color, $lightness: -60%, $saturation: +10%),
+    $shadowopacity: .3);
+  }
+}
